@@ -1,0 +1,29 @@
+.h1 {
+    background-color: aquamarine;
+    color: brown;
+}
+
+.h1:hover {
+    background-color: rgb(198, 238, 40);
+    cursor: pointer;
+}
+
+.h1:active {
+    color: red;
+}
+
+.showed {
+    display: none;
+}
+
+.abc {
+    padding: 5px 3px;
+}
+
+.abc:hover span {
+    display: inline;
+}
+
+div h3 {
+    background-color: aquamarine;
+}

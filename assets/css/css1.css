@@ -1,0 +1,24 @@
+.abcd {
+    color: rgb(14, 226, 99);
+}
+
+.para {
+    /* height: px; */
+    /* background-color: brown; */
+    background-image: url('../bg-small.jpg');
+    /* background-repeat: no-repeat;
+    background-position: top right; */
+    /* background-attachment: fixed; */
+    background-size: 100% 400px;
+}
+
+body {
+    background-image: url('../background-3.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+/* Background Short Hand Property */
+/* (1) background-color   (2)background-image (3)background-repeat (4)background-position*/
+/* background: #ffffff url("img_tree.png") no-repeat right top; */

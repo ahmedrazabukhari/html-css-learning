@@ -1,0 +1,12 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 2s ease-in 1s,
+        margin 1s;
+}
+
+div:hover {
+    margin: 100px;
+    background-color: blueviolet;
+}

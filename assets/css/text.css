@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+.text {
+    color: blue;
+    background-color: aqua;
+    text-align: justify;
+    text-indent: 60px;
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+}
+
+.decor {
+    text-decoration: overline underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+
+a {
+    text-decoration: line-through orangered dashed 2px;
+    color: orangered;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.head{
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Open Sans', sans-serif;
+}

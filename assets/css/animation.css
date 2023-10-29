@@ -1,0 +1,38 @@
+div {
+    background-color: green;
+    width: 30%;
+    height: 5rem;
+    font-size: 18px;
+    color: white;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    /* animation-delay: -2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-timing-function: ease-in-out; */
+    animation-fill-mode: backwards;
+    margin: 0;
+}
+
+@keyframes myAnimation {
+    25% {
+        background-color: red;
+        margin: 10px;
+    }
+
+    50% {
+        background-color: orangered;
+        margin: 20px;
+    }
+
+    75% {
+        background-color: blue;
+        margin: 25px;
+    }
+
+
+    100% {
+        background-color: purple;
+        margin: 300px;
+    }
+}

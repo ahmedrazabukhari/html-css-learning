@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    justify-content: space-around;
+}
+
+.display{
+    display: none;
+}

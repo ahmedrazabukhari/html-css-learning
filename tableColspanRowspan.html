@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- colspan -->
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>43</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>57</td>
+        </tr>
+    </table>
+
+
+    <br><br><br>
+    <!-- rowspan -->
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Jill</th>
+            <th>Jane</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>123-123-123</td>
+            <td>000-999-888</td>
+        </tr>
+        <tr>
+            <td>234-234-234</td>
+            <td>777-666-555</td>
+        </tr>
+    </table>
+</body>
+
+</html>

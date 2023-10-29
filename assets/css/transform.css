@@ -1,0 +1,18 @@
+.container {
+    background-color: red;
+    width: 3rem;
+    height: 3rem;
+    border-bottom: 5px solid black;
+    /* transform: translate(10px,-10px) ; */
+    /* transform: rotate(180deg); */
+    /* transform: scale(4,2); */
+    /* transform: skew(20deg,20deg); */
+    margin: 100px;
+    transition: 2s transform;
+}
+
+.container:hover {
+    transform: rotateX(80deg);
+    /* transform: rotateY(80deg); */
+    /* transform: rotateZ(80deg); */
+}

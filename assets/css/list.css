@@ -1,0 +1,7 @@
+.list-style {
+    /* list-style-type: none; */
+    /* list-style-image: url('../bg-small.jpg'); */
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+}

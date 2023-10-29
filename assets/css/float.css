@@ -1,0 +1,25 @@
+.div3 {
+    float: left;
+    border: 3px solid #73AD21;
+}
+
+.div4 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+}
+
+/* nav{
+    margin: auto;
+    width: 50%;
+} */
+
+.float{
+    float: left;
+}
+
+.check{
+    background-color: black;
+    color: white;
+    display: inline;
+}
