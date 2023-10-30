@@ -27,3 +27,52 @@
 div h3 {
     background-color: aquamarine;
 }
+
+h4 {
+    color: blueviolet;
+}
+
+h4:hover {
+    background-color: black;
+    color: white;
+}
+
+h4:active {
+    color: red;
+    background-color: green;
+}
+
+li:first-child {
+    font-size: 20px;
+    color: blue;
+}
+
+li:last-child:active {
+    font-size: 7px;
+    color: brown;
+}
+
+p::first-line {
+    color: yellowgreen;
+}
+
+p::first-letter {
+    color: blue;
+}
+
+/* .option{
+    display: inline-block;
+    margin: 7px 0;
+}
+.option::before {
+    content: '';
+    width: 50%;
+    height: 2px;
+    background-color: blue;
+} */
+
+.option::selection {
+    background-color: rgb(2, 82, 2);
+    color: white;
+}
+
