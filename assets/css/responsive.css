@@ -1,0 +1,30 @@
+.card {
+    border: 1px solid;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px 50px;
+}
+
+@media screen and (max-width:1024px) {
+    .grid {
+        grid-template-columns: auto auto auto;
+    }
+    .card{
+        background-color: rgb(171, 169, 169);
+    }
+
+}
+
+@media (max-width:768px) {
+    .grid {
+        grid-template-columns: auto auto;
+    }
+    .card{
+        background-color: rgb(192, 108, 108);
+    }
+}

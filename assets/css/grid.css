@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px 50px;
+}
+
+.extra-space {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.extra-row {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gird-col {
+    grid-column: 1/5;
+}
+
+.grid-row {
+    grid-row: 1/5;
+}
