@@ -17,3 +17,5 @@
 ## Animation shorthand
  animation: `example 5s linear 2s infinite alternate;`
  animation : animation-name animation-duration animation-timing-fuction animation-delay animation-iteration-count animation-direction
+
+# Hm begerat hn. hm notes nhi bnaege `#begerats`
