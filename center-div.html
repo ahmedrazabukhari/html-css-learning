@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: aqua;
+            height: 100vh;
+        }
+
+        .flex div {
+            background-color: rebeccapurple;
+        }
+
+        .grid {
+            display: grid;
+            place-items: center;
+            width: 100%;
+            background-color: aqua;
+            height: 100vh;
+        }
+
+        .grid div {
+            background-color: rebeccapurple;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="absolute"> Using absolute </div> -->
+
+    
+    <!-- <div class="flex">
+        <div>asd</div>
+    </div> -->
+
+
+    <div class="grid">
+        <div>asd</div>
+    </div>
+
+</body>
+
+</html>
