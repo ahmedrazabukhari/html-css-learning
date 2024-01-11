@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .form2 {
+            margin-top: 100px;
+        }
+    </style>
 </head>
 
 <body>
@@ -12,7 +17,7 @@
         <fieldset>
             <legend>Login Form</legend>
             <label for="">Name</label>
-            <input type="password" readonly value="abcde">
+            <input type="text" value="abcde">
             <input type="password" disabled value="abcde">
             <input type="password">
             <input type="range">
@@ -30,6 +35,51 @@
             <textarea placeholder="add your comment" cols="10" rows="10"></textarea>
             <button>asd</button>
         </fieldset>
+    </form>
+
+    <form class="form2">
+        <h1>Form 2</h1>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required size="50" autofocus>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" minlength="8" required>
+        </div>
+        <div>
+            <label for="">gender</label>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">male</label>
+            <br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">female</label>
+        </div>
+        <div>
+            <label for="foods">Foods</label>
+            <select name="foods" id="foods" multiple>
+                <optgroup label="Fast food">
+                    <option value="">Burger</option>
+                    <option value="">Fries</option>
+                    <option value="">Pizza</option>
+                </optgroup>
+                <optgroup label="Rice">
+                    <option value="">Biryani</option>
+                    <option value="">Pulao</option>
+                    <option value="">Plain rice</option>
+                </optgroup>
+            </select>
+        </div>
+        <input type="file">
+        <input type="number" placeholder="quantity" min="0" max="50" step="5">
+        <textarea name="reviews" id="reviews" cols="30" rows="10" maxlength="150"></textarea>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
     </form>
 </body>
 
